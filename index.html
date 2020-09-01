@@ -33,8 +33,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong>Studio Oolala</strong>
+      <a class="navbar-brand" href="#" target="_blank">
+        <strong class= h2-font>Studio Oolala</strong>
       </a>
 
       <!-- Collapse -->
@@ -165,7 +165,7 @@
           </div>            
 
           <!-- O Nás Grid column-->
-          <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4">
 
             <!-- O Nás Main heading -->
             <h3 class="h3 mb-3">O Nás</h3>
@@ -183,6 +183,12 @@
             </p>
             <!-- Main heading -->
             <hr>
+
+          <!--Google map-->
+          <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+          <iframe src="https://maps.google.com/maps?q=Barcelona&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
             <!-- CTA -->
             <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
               <i class="fas fa-download ml-1"></i>
@@ -252,316 +258,107 @@
         <!--Grid row-->
 
       </section>
-      <!--Section: prodluzovani vlasu-->
+      <!--Section: kontakt -->
+      <section class="section pb-5">
 
-      <hr class="my-5">
+        <!--Section heading-->
+        <h2 class="section-heading h1 pt-4">Kontakt</h2>
+        <!--Section description-->
+        <p class="section-description pb-4">Máte-li nějaké přání nebo dotaz, neváhejte nás kontaktovat a my Vám rádi pomůžeme.
+        </p>
 
-      <!--Section: Main features & Quick Start-->
-      <section>
-
-        <h3 class="h3 text-center mb-5">O nás</h3>
-
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
-
-            <!--First row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-code fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Kontakt</h5>
-                <p class="grey-text">
-                  Kateřina Hebrová
-                </p>
-                <p class="grey-text">  
-                  Lipová bl.528, čp. 1123/21
-                  Most
-                </p>
-                <p class="grey-text"></p>
-                  Tel: 777841573
-                </p>
-                <p class="grey-text"></p>
-                  hebrovakaterina@gmail.cz
-                </p>
-                <p class="grey-text"></p>
-                  IČO : 68989776
-                </p>
-                <p class="grey-text">
-                  Pracovní doba
-                </p>
-                <p class="grey-text">
-                  Sudý týden
-                </p>
-                <p class="grey-text"> 
-                  Pondělí        8-18h
-                </p>
-                <p class="grey-text">
-                  Úterý          8-18h
-                </p>
-                <p class="grey-text">
-                  Pátek          8-18h
-                </p>
-                <p class="grey-text">
-                  Lichý týden
-                </p>
-                <p class="grey-text">
-                  Středa         8-18h
-                </p>
-                <p class="grey-text">
-                  Čtvrtek        8-18h
-                </p>
-                <p class="grey-text">
-                  Pro domluvení termínu, prosím, pište sms na telefon 777841573. Ozvu se zpět – jakmile to bude možné. Děkuji za pochopení 
-                  Pokud se chcete na něco zeptat – použijte, prosím, tento formulář..
-                </p>
-              </div>
-            </div>
-            <!--/First row-->
-            
-          </div>
-          <!--/Grid column-->
+        <div class="row">
 
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-5 mb-4">
 
-            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+            <!--Form with header-->
+            <div class="card">
+
+              <div class="card-body">
+                <!--Header-->
+                <div class="form-header pink accent-1">
+                  <h3><i class="fas fa-envelope"></i> Napište nám:</h3>
+                </div>
+
+                <p>neváhejte nás kontaktovat</p>
+                <br>
+
+                <!--Body-->
+                <div class="md-form">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form-name" class="form-control">
+                  <label for="form-name">Vaše jmeno</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="text" id="form-email" class="form-control">
+                  <label for="form-email">Váš email</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form-Subject" class="form-control">
+                  <label for="form-Subject">Předmět emailu</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-pencil-alt prefix grey-text"></i>
+                  <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                  <label for="form-text">Text</label>
+                </div>
+
+                <div class="text-center mt-4">
+                  <button class="btn btn-pink">Odeslat</button>
+                </div>
+
+              </div>
+
             </div>
+            <!--Form with header-->
+
           </div>
-          <!--/Grid column-->
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7">
+
+            <!--Google map-->
+            <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 450px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.917468472453!2d15.056478779379484!3d50.76817023446603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470937eeadb3a9dd%3A0xdc8b9b241e8b542d!2sOolala%20studio!5e0!3m2!1scs!2scz!4v1598957289915!5m2!1scs!2scz" 
+              width="650" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <br>
+            <!--Buttons-->
+            <div class="row text-center">
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                <p>Moskevská 637, Perštýn </p>
+                <p>460 01 Liberec</p>
+              </div>
+
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-phone"></i></a>
+                <p>+ 01 234 567 89</p>
+                <p>Mon - Fri, 8:00-22:00</p>
+              </div>
+
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-envelope"></i></a>
+                <p>info@oolala.cz</p>
+                <p>prodej@oolala.cz</p>
+              </div>
+            </div>
+
+          </div>
+          <!--Grid column-->
 
         </div>
-        <!--/Grid row-->
 
       </section>
-      <!--Section: Main features & Quick Start-->
-
-      <hr class="my-5">
-
-      <!--Section: Pracovní doba?-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">Pracovní doba?</h2>
-
-        <!--First row-->
-        <div class="row features-small mb-5 mt-3 wow fadeIn">
-
-          <!--First column-->
-          <div class="col-md-4">
-            <!--First row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-3x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Pondělí ...................................... 8-18h</h6>
-                <p class="grey-text">
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/First row-->
-
-            <!--Second row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">400+ UI elements</h6>
-                <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">600+ icons</h6>
-                <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
-
-      </section>
-      <!--Section: Pracovní doba?-->
-
-      <hr class="mb-5">
-
-      <!--Section: More-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">...and even more</h2>
-
-        <!--First row-->
-        <div class="row features-small mt-5 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2 pl-3">
-                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers;
-                  all browsers love MDB.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as
-                  possible.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Active community</h5>
-                <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a
-                  part of our family.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
-                <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest
-                  features which come along with
-                  it.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/First row-->
-
-        <!--Second row-->
-        <div class="row features-small mt-4 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Modularity</h5>
-                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use
-                  libraries including all features as
-                  well as modules for CSS (SASS files) and JS.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Technical support</h5>
-                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to
-                  contact us.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
-                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">SASS files</h5>
-                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Second row-->
-
-      </section>
-      <!--Section: More-->
-    <!--Section: služby-->
-
-
+    <!--Section: kontakt-->
     </div>
   </main>
   <!--Main layout-->
