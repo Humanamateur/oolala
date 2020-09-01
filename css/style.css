@@ -1,0 +1,61 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view 
+{
+  height: 100%;
+  background-image: url("E:/Projects/www/oolala/img/hlava.jpeg");  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Navbar animation */
+.navbar 
+{
+  background-color: #e79cc2; 
+  height: 100px;
+  font-size: 22px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  scrollbar-color: #121223;
+}
+.top-nav-collapse 
+{
+  background-color: #f6bed6;
+}
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) 
+{
+  .navbar 
+  {
+    background-color: #f6bed6;
+    scrollbar-face-color: #121223; 
+  } 
+}
+/* Footer color for sake of consistency with Navbar */
+.page-footer 
+{
+  background-color: #1d1b38; 
+}
+/* Font for H1 */
+@font-face {
+  font-family: ok;
+  src: url(scripalt.ttf);
+}
+/*
+.h1-font 
+{
+  font-family: ok;
+  font-size: 150px;
+}
+*/
+.h1-font
+{
+  font: 400 150px/1.5 Stencil Std, fantasy;
+  color: #f6bed6;
+  text-shadow: 3px 3px 0px #1d1b38, 3px 3px 3px #e79cc2;
+}
+.h2-font
+{
+  font: 400 150px/1.5 Stencil Std, fantasy;
+  color: #ffd2f9;
+  text-shadow: 3px 3px 0px rgba(68, 35, 68, 0.925), 3px 3px 3px rgb(139, 73, 148);
+}
