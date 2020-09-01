@@ -16,13 +16,13 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <style type="text/css">
-  /*
+  
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {
         background: #1C2331 !important;
       }
     }
-    */
+  
   </style>
 </head>
 
@@ -49,27 +49,44 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">Domů
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">O nás</a>
+            <a class="nav-link" href="#onas" target="_blank">O nás</a>
+          </li>
+                <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Služby</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Prodlužování vlasů</a>
+              <a class="dropdown-item" href="#">Pánské stříhání</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Prodlužování vlasů"
-            target="_blank">Prodlužování vlasů
+            <a class="nav-link" href="#rekvalifikacnikurzy"
+            target="_blank">Rekvalifikační kurzy
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
+            <a class="nav-link" href="#cenik"
+            target="_blank">Ceník
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontakt"
+            target="_blank">Kontakt
+            </a>
           </li>
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+            <a href="" class="nav-link" target="_blank">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
@@ -79,9 +96,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+            <a href="#kontakt" class="nav-link border border-light rounded"
               target="_blank">
-              <i class="fab fa-github mr-2"></i>e-shop
+              <i class="fab fa-github mr-2"></i>Napiš nám
             </a>
           </li>
         </ul>
@@ -92,7 +109,7 @@
   </nav>
   <!-- Navbar -->
 
-  <!-- Full Page Intro -->
+  <!-- Intro -->
   <div class="view" style=  "background-repeat: no-repeat; background-size: cover;">
 
     <!-- Mask & flexbox options-->
@@ -123,13 +140,69 @@
     <!-- Mask & flexbox options-->
 
   </div>
-  <!-- Full Page Intro -->
+  <!-- Intro -->
 
   <!--Main layout-->
   <main>
+
     <div class="container">
 
-      <!--Section: Main info-->
+      <!--Section: O Nás-->
+
+      <hr id="O nas">
+
+      <section class="mt-5 wow fadeIn">
+
+        <!--O Nás Grid row-->
+        <div class="row">
+
+          <!-- O Nás Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="E:\Projects\www\oolala\img\curlyhead.jpeg" class="img-fluid z-depth-1-half"
+              alt="">
+
+          </div>            
+
+          <!-- O Nás Grid column-->
+          <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+
+            <!-- O Nás Main heading -->
+            <h3 class="h3 mb-3">O Nás</h3>
+            <p>Náš kadeřnický salon se nachází v samotném centru Vyškova, v Jihomoravském kraji.
+              Svým zákazníkům poskytujeme komplexní a profesionální kadeřnické služby, za použití 
+              nejlepších výrobků vlasové kosmetiky značky WELLA. 
+            </p>
+            <p>
+            Naše služby jsou určeny nejen 
+              ženám, ale také mužům nebo dětem. Všichni naši pracovníci jsou pravidelně proškolováni
+              odborníky ze studia Wella Praha, a díky tomu si udržují svoji profesionalitu.
+              Současně také sledujeme aktuální módní trendy a účastníme se nejrůznějších seminářů,
+              kde získáváme nové nápady a zkušenosti, které následně aplikujeme v praxi. Našim cílem
+              je především spokojený zákazník, který nám plně důvěřuje, a který se k nám rád vrací.
+            </p>
+            <!-- Main heading -->
+            <hr>
+            <!-- CTA -->
+            <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
+              <i class="fas fa-download ml-1"></i>
+            </a>
+            <a target="_blank" href="" class="btn btn-grey btn-md">živě
+              <i class="far fa-image ml-1"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: O nás-->
+
+           
+      <!--Section: služby-->
+      <!--Section: prodluzování vlasů-->
       <section class="mt-5 wow fadeIn">
 
         <!--Grid row-->
@@ -143,6 +216,8 @@
 
           </div>
           <!--Grid column-->
+
+            
 
           <!--Grid column-->
           <div id="Prodlužování vlasů" class="col-md-6 mb-4">
@@ -177,7 +252,7 @@
         <!--Grid row-->
 
       </section>
-      <!--Section: Main info-->
+      <!--Section: prodluzovani vlasu-->
 
       <hr class="my-5">
 
@@ -484,6 +559,8 @@
 
       </section>
       <!--Section: More-->
+    <!--Section: služby-->
+
 
     </div>
   </main>
