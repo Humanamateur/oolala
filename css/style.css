@@ -7,15 +7,15 @@ body,
   background-image: url("E:/Projects/www/oolala/img/hlava.jpeg");  
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fff0fc;
 }
 /* Navbar animation */
 .navbar 
 {
-  background-color: #e79cc2; 
+  background-color: #e79cc100; 
   height: 80px;
   font-size: 15px;
   font-family: Impact, Haettenschweiler,;
-  scrollbar-color: #121223;
 }
 .top-nav-collapse 
 {
@@ -26,11 +26,8 @@ body,
 {
   .navbar 
   {
-    background-color: #f6bed6;
-    scrollbar-face-color: #121223; 
+    background-color: #f6bed6; 
     scrollbar-color: #e79cc2;
-    scrollbar-darkshadow-color: #121223;
-    scrollbar-track-color: #121223;
   } 
 }
 /* Footer color for sake of consistency with Navbar */
@@ -39,11 +36,11 @@ body,
   background-color: #1d1b38; 
 }
 
-.h9-font
+.h3-font
 {
   font: 500 500px;
-  color: #f6bed6;
-  text-shadow: 3px 3px 0px #545361, 3px 3px 3px #f3b7d5;
+  color: #fce8f1;
+  text-shadow: 1px 2px 1px #121223, 1px 1px 1px #000000;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .h2-font
@@ -55,7 +52,7 @@ body,
 
 .h1-font { font-family: "Brush Script MT", cursive; 
   font-size: 175px;
-  text-shadow: 3px 3px 3px rgba(41, 14, 41, 0.925), 5px 5px 5px rgba(24, 12, 24, 0.925);
+  text-shadow: 3px 3px 0px rgba(206, 131, 206, 0.925), 5px 5px 5px rgb(139, 73, 148);
   color: #f6bed6;
   font: 500 500px;
   font-style: normal; 
