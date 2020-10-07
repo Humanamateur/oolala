@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Studio Oolala</title>
+  <title>oolala</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -16,11 +16,7 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <style type="text/css">
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
+  
   </style>
 </head>
 
@@ -31,8 +27,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong>Studio Olala</strong>
+      <a class="navbar-brand" href="#" target="_blank">
+        <strong class= h2-font>Studio Oolala</strong>
       </a>
 
       <!-- Collapse -->
@@ -47,39 +43,56 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">Domů
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" >O nás</a>
+            <a class="nav-link" href="#oNas" target="_blank">O nás</a>
+          </li>
+                <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Služby</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#sluzbyProdluzovani">Prodlužování vlasů</a>
+              <a class="dropdown-item" href="#sluzbyStrihani">Pánské stříhání</a>
+              <a class="dropdown-item" href="#sluzby">Something else here</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Prodlužování vlasů"
-            target="_blank">Prodlužování vlasů
+            <a class="nav-link" href="#rekvalifikace"
+            target="_blank">Rekvalifikační kurzy
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
+            <a class="nav-link" href="#cenik"
+            target="_blank">Ceník
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontakt"
+            target="_blank">Kontakt
+            </a>
           </li>
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+            <a href="" class="nav-link" target="_blank">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+            <a href="" class="nav-link" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+            <a href="#kontakt" class="nav-link border border-light rounded"
               target="_blank">
-              <i class="fab fa-github mr-2"></i>MDB GitHub
+              <i class="fab fa-github mr-2"></i>Napiš nám
             </a>
           </li>
         </ul>
@@ -90,7 +103,7 @@
   </nav>
   <!-- Navbar -->
 
-  <!-- Full Page Intro -->
+  <!-- Intro -->
   <div class="view" style=  "background-repeat: no-repeat; background-size: cover;">
 
     <!-- Mask & flexbox options-->
@@ -98,17 +111,20 @@
 
       <!-- Content -->
       <div class="text-center white-text mx-5 wow fadeIn">
-        <h1 class="mb-4">
-          <strong>Studio Olala</strong>
+        <h1 class="mb-4 h1-font">
+          <strong>Studio Oolala</strong>
         </h1>
 
-        <p>
-          <strong>Garantujeme viditelné výsledky, dokonalé poradenství, relaxaci a odpočinek</strong>
-        </p>
+        <h3 class="h3-font">
+          <strong> ❤ Garantujeme viditelné výsledky, dokonalé poradenství, relaxaci a odpočinek ❤</strong>
+        </h3>
 
-        <p class="mb-4 d-none d-md-block">
-          <strong>UŽ DVACT LET JSME TU PRO VÁS. TÝMOVÝ PŘÍSTUP A SOUDRŽNOST KOLEKTIVU JE NAŠÍ VIZITKOU. pracujeme společně, rosteme společně a PEČUJEME O VÁS S LÁSKOU.</strong>
-        </p>
+        <h3 class="h3-font">
+          už dvact let jsme tu pro vás. týmový přístup a soudržnost kolektivu je naší vizitkou. 
+        </h3>
+        <h3 class="h3-font">
+          pracujeme společně, rosteme společně a pečujeme o vás s láskou.
+        </h3>
 
         <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">
           Napište nám
@@ -121,58 +137,58 @@
     <!-- Mask & flexbox options-->
 
   </div>
-  <!-- Full Page Intro -->
+  <!-- Intro -->
 
   <!--Main layout-->
   <main>
+
     <div class="container">
 
-      <!--Section: Main info-->
+      <!--Section: O Nás-->
+      <hr id="oNas" style="margin:100px">
       <section class="mt-5 wow fadeIn">
 
-        <!--Grid row-->
+        <!--O Nás Grid row-->
         <div class="row">
 
-          <!--Grid column-->
+          <!-- O Nás Grid column-->
           <div class="col-md-6 mb-4">
 
-            <img src="E:\Projects\www\oolala\img\curlyhead3.jpeg" class="img-fluid z-depth-1-half"
+            <img src="E:\Projects\www\oolala\img\curlyhead.jpeg" class="img-fluid z-depth-1-half"
               alt="">
 
-          </div>
-          <!--Grid column-->
+          </div>            
 
-          <!--Grid column-->
-          <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+          <!-- O Nás Grid column-->
+          <div class="col-md-6 mb-4">
 
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
-            <p>Kadeřnické salóny Petrů-Rossi zajišťují profesionální služby za ceny, které 
-              jsou velice příznivé. Každý salón Vás osloví pozitivní atmosférou a
-              příjemným prostředím, snažíme se o vytvoření co největšího komfortu pro naše zákazníky.
-              V našem týmu naleznete pouze talentované a školené kadeřníky, kteří neustále sledují moderní trendy 
-              – a díky tomuto se zúčastňují mnohých kadeřnických soutěží, ve kterých se umísťují na předních pozicích.
-              **Poradíme si se všemi typy a střihy účesů. Používáme přitom špičkovou vlasovou kosmetiku Wella 
-              Professionals a Schwarzkopf Professional. (
+            <!-- O Nás Main heading -->
+            <h3 class="h3 mb-3">O Nás</h3>
+            <p>Náš kadeřnický salon se nachází v samotném centru Vyškova, v Jihomoravském kraji.
+              Svým zákazníkům poskytujeme komplexní a profesionální kadeřnické služby, za použití 
+              nejlepších výrobků vlasové kosmetiky značky WELLA. 
             </p>
-            <p>Read details below to learn more about MDB.</p>
+            <p>
+            Naše služby jsou určeny nejen 
+              ženám, ale také mužům nebo dětem. Všichni naši pracovníci jsou pravidelně proškolováni
+              odborníky ze studia Wella Praha, a díky tomu si udržují svoji profesionalitu.
+              Současně také sledujeme aktuální módní trendy a účastníme se nejrůznějších seminářů,
+              kde získáváme nové nápady a zkušenosti, které následně aplikujeme v praxi. Našim cílem
+              je především spokojený zákazník, který nám plně důvěřuje, a který se k nám rád vrací.
+            </p>
             <!-- Main heading -->
-
             <hr>
 
-            <p>
-              <strong>400+</strong> material UI elements,
-              <strong>600+</strong> material icons,
-              <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
-              <strong>Free for personal and commercial use.</strong>
-            </p>
-
+          <!--Google map-->
+          <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+          <iframe src="https://maps.google.com/maps?q=Barcelona&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
             <!-- CTA -->
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Download
+            <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
               <i class="fas fa-download ml-1"></i>
             </a>
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-grey btn-md">Live
-              demo
+            <a target="_blank" href="" class="btn btn-grey btn-md">živě
               <i class="far fa-image ml-1"></i>
             </a>
 
@@ -183,394 +199,335 @@
         <!--Grid row-->
 
       </section>
-      <!--Section: Main info-->
+      <!--Section: O nás-->
 
-      <hr class="my-5">
+      <!--Section: služby: Prodluzování Vlasů-->
+      <hr id="sluzbyProdluzovani" style="margin:100px">
+      <section class="mt-5 wow fadeIn">
 
-      <!--Section: Main features & Quick Start-->
-      <section>
+        <!--SubSection: prodlužování vlasů-->
+        
 
-        <h3 class="h3 text-center mb-5">About MDB</h3>
+          <!--Grid row-->
+          <div class="row">
 
-        <!--Grid row-->
-        <div class="row wow fadeIn">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
 
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
+              <img src="E:\Projects\www\oolala\img\curlyhead3.jpeg" class="img-fluid z-depth-1-half"
+                alt="">
 
-            <!--First row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-code fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Bootstrap 4</h5>
-                <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
-              </div>
             </div>
-            <!--/First row-->
+            <!--Grid column-->
 
-            <div style="height:30px"></div>
+              
 
-            <!--Second row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-book fa-2x blue-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Detailed documentation</h5>
-                <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help
-                  you to implement your ideas
-                  easily.
-                </p>
-              </div>
+            <!--Grid column-->
+            <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">Prodlužování Vlasů</h3>
+              <p>Kadeřnické salóny Petrů-Rossi zajišťují profesionální služby za ceny, které 
+                jsou velice příznivé. Každý salón Vás osloví pozitivní atmosférou a
+                příjemným prostředím, snažíme se o vytvoření co největšího komfortu pro naše zákazníky.
+                V našem týmu naleznete pouze talentované a školené kadeřníky, kteří neustále sledují moderní trendy 
+                – a díky tomuto se gregr mnohých kadeřnických soutěží, ve kterých se umísťují na předních pozicích.
+                **Poradíme si se všemi typy. Používáme přitom špičkovou vlasovou kosmetiku Wella 
+                Professionals a Schwarzkopf Professional. (
+              </p>
+              <p>Read details below to learn more about MDB.</p>
+              <!-- Main heading -->
+
+              <hr>
+
+              <!-- CTA -->
+              <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
+                <i class="fas fa-download ml-1"></i>
+              </a>
+              <a target="_blank" href="" class="btn btn-grey btn-md">živě
+                <i class="far fa-image ml-1"></i>
+              </a>
+
             </div>
-            <!--/Second row-->
-
-            <div style="height:30px"></div>
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Lots of tutorials</h5>
-                <p class="grey-text">We care about the development of our users. We have prepared numerous tutorials,
-                  which allow you to learn
-                  how to use MDB as well as other technologies.</p>
-              </div>
-            </div>
-            <!--/Third row-->
+            <!--Grid column-->
 
           </div>
-          <!--/Grid column-->
+          <!--Grid row-->
+
+        <!--SubSection: prodlužování vlasů-->
+      </section>  
+      <!--Section: služby-->
+
+      <!--Section: služby: Dámské a pánské stříhání-->
+      <hr id="sluzbyStrihani" style="margin:100px">
+      <section class="mt-5 wow fadeIn">
+
+        <!--SubSection: prodlužování vlasů-->
+        
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+
+              <img src="E:\Projects\www\oolala\img\curlyhead3.jpeg" class="img-fluid z-depth-1-half"
+                alt="">
+
+            </div>
+            <!--Grid column-->
+
+              
+
+            <!--Grid column-->
+            <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">Prodlužování Vlasů</h3>
+              <p>Kadeřnické salóny Petrů-Rossi zajišťují profesionální služby za ceny, které 
+                jsou velice příznivé. Každý salón Vás osloví pozitivní atmosférou a
+                příjemným prostředím, snažíme se o vytvoření co největšího komfortu pro naše zákazníky.
+                V našem týmu naleznete pouze talentované a školené kadeřníky, kteří neustále sledují moderní trendy 
+                – a díky tomuto se gregr mnohých kadeřnických soutěží, ve kterých se umísťují na předních pozicích.
+                **Poradíme si se všemi typy. Používáme přitom špičkovou vlasovou kosmetiku Wella 
+                Professionals a Schwarzkopf Professional. (
+              </p>
+              <p>Read details below to learn more about MDB.</p>
+              <!-- Main heading -->
+
+              <hr>
+
+              <!-- CTA -->
+              <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
+                <i class="fas fa-download ml-1"></i>
+              </a>
+              <a target="_blank" href="" class="btn btn-grey btn-md">živě
+                <i class="far fa-image ml-1"></i>
+              </a>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+        <!--SubSection: prodlužování vlasů-->
+      </section>  
+      <!--Section: služby: Dámské a pánské stříhání-->
+
+      <!--Section: Rekvalifikační kurzy-->
+      <hr id="rekvalifikce" style="margin:100px">
+      <section class="mt-5 wow fadeIn">
+
+        <!--SubSection: prodlužování vlasů-->
+        
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+
+              <img src="E:\Projects\www\oolala\img\curlyhead3.jpeg" class="img-fluid z-depth-1-half"
+                alt="">
+
+            </div>
+            <!--Grid column-->
+
+              
+
+            <!--Grid column-->
+            <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">Prodlužování Vlasů</h3>
+              <p>Kadeřnické salóny Petrů-Rossi zajišťují profesionální služby za ceny, které 
+                jsou velice příznivé. Každý salón Vás osloví pozitivní atmosférou a
+                příjemným prostředím, snažíme se o vytvoření co největšího komfortu pro naše zákazníky.
+                V našem týmu naleznete pouze talentované a školené kadeřníky, kteří neustále sledují moderní trendy 
+                – a díky tomuto se gregr mnohých kadeřnických soutěží, ve kterých se umísťují na předních pozicích.
+                **Poradíme si se všemi typy. Používáme přitom špičkovou vlasovou kosmetiku Wella 
+                Professionals a Schwarzkopf Professional. (
+              </p>
+              <p>Read details below to learn more about MDB.</p>
+              <!-- Main heading -->
+
+              <hr>
+
+              <!-- CTA -->
+              <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
+                <i class="fas fa-download ml-1"></i>
+              </a>
+              <a target="_blank" href="" class="btn btn-grey btn-md">živě
+                <i class="far fa-image ml-1"></i>
+              </a>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+        <!--SubSection: prodlužování vlasů-->
+      </section>  
+      <!--Section: Rekvalifikační kurzy-->
+
+      <!--Section: Ceník-->
+      <hr id="cenik" style="margin:100px">
+      <section class="mt-5 wow fadeIn">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div id="Prodlužování vlasů" class="col-md-6 mb-4">
+
+              <h2 class="section-heading h1 pt-4">Ceník</h2>
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">Prodlužování Vlasů</h3>
+              <p>Kadeřnické salóny Petrů-Rossi zajišťují profesionální služby za ceny, které 
+                jsou velice příznivé. Každý salón Vás osloví pozitivní atmosférou a
+                příjemným prostředím, snažíme se o vytvoření co největšího komfortu pro naše zákazníky.
+                V našem týmu naleznete pouze talentované a školené kadeřníky, kteří neustále sledují moderní trendy 
+                – a díky tomuto se gregr mnohých kadeřnických soutěží, ve kterých se umísťují na předních pozicích.
+                **Poradíme si se všemi typy. Používáme přitom špičkovou vlasovou kosmetiku Wella 
+                Professionals a Schwarzkopf Professional. (
+              </p>
+              <p>Read details below to learn more about MDB.</p>
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img src="E:\Projects\www\oolala\img\curlyhead2.jpeg" class="img-fluid z-depth-1-half"
+                alt="">
+            </div>
+            <!--Grid column-->
+
+              <!-- Main heading -->
+
+              <hr>
+
+              <!-- CTA -->
+              <a target="_blank" href="" class="btn btn-grey btn-md">Ke stažení
+                <i class="fas fa-download ml-1"></i>
+              </a>
+              <a target="_blank" href="" class="btn btn-grey btn-md">živě
+                <i class="far fa-image ml-1"></i>
+              </a>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+        <!--SubSection: prodlužování vlasů-->
+      </section>  
+      <!--Section: Ceník-->
+
+      <!--Section: kontakt -->
+      <hr id="kontakt" style="margin:100px">
+      <section class="section pb-5">
+
+        <!--Section heading-->
+        <h2 class="section-heading h1 pt-4">Kontakt</h2>
+        <!--Section description-->
+        <p class="section-description pb-4">Máte-li nějaké přání nebo dotaz, neváhejte nás kontaktovat a my Vám rádi pomůžeme.
+        </p>
+
+        <div class="row">
 
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-5 mb-4">
 
-            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+            <!--Form with header-->
+            <div class="card">
+
+              <div class="card-body">
+                <!--Header-->
+                <div class="form-header pink accent-1">
+                  <h3><i class="fas fa-envelope"></i> Napište nám:</h3>
+                </div>
+
+                <p>neváhejte nás kontaktovat</p>
+                <br>
+
+                <!--Body-->
+                <div class="md-form">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form-name" class="form-control">
+                  <label for="form-name">Vaše jmeno</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="text" id="form-email" class="form-control">
+                  <label for="form-email">Váš email</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form-Subject" class="form-control">
+                  <label for="form-Subject">Předmět emailu</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-pencil-alt prefix grey-text"></i>
+                  <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                  <label for="form-text">Text</label>
+                </div>
+
+                <div class="text-center mt-4">
+                  <button class="btn btn-pink">Odeslat</button>
+                </div>
+
+              </div>
+
             </div>
+            <!--Form with header-->
+
           </div>
-          <!--/Grid column-->
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7">
+
+            <!--Google map-->
+            <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 450px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.917468472453!2d15.056478779379484!3d50.76817023446603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470937eeadb3a9dd%3A0xdc8b9b241e8b542d!2sOolala%20studio!5e0!3m2!1scs!2scz!4v1598957289915!5m2!1scs!2scz" 
+              width="650" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <br>
+            <!--Buttons-->
+            <div class="row text-center">
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                <p>Moskevská 637, Perštýn </p>
+                <p>460 01 Liberec</p>
+              </div>
+
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-phone"></i></a>
+                <p>+ 01 234 567 89</p>
+                <p>Mon - Fri, 8:00-22:00</p>
+              </div>
+
+              <div class="col-md-4">
+                <a class="btn-floating pink accent-1"><i class="fas fa-envelope"></i></a>
+                <p>info@oolala.cz</p>
+                <p>prodej@oolala.cz</p>
+              </div>
+            </div>
+
+          </div>
+          <!--Grid column-->
 
         </div>
-        <!--/Grid row-->
 
       </section>
-      <!--Section: Main features & Quick Start-->
-
-      <hr class="my-5">
-
-      <!--Section: Not enough-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">Not enough?</h2>
-
-        <!--First row-->
-        <div class="row features-small mb-5 mt-3 wow fadeIn">
-
-          <!--First column-->
-          <div class="col-md-4">
-            <!--First row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Free for personal and commercial use</h6>
-                <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as
-                  commercial projects.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/First row-->
-
-            <!--Second row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">400+ UI elements</h6>
-                <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">600+ icons</h6>
-                <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
-
-            <!--Fourth row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Fully responsive</h6>
-                <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop,
-                  tablet or mobile phone. MDB
-                  looks great on each screen.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Fourth row-->
-          </div>
-          <!--/First column-->
-
-          <!--Second column-->
-          <div class="col-md-4 flex-center">
-            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone"
-              class="z-depth-0 img-fluid">
-          </div>
-          <!--/Second column-->
-
-          <!--Third column-->
-          <div class="col-md-4 mt-2">
-            <!--First row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">70+ CSS animations</h6>
-                <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your
-                  project and delight your visitors.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/First row-->
-
-            <!--Second row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Plenty of useful templates</h6>
-                <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy installation</h6>
-                <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
-
-            <!--Fourth row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy to use and customize</h6>
-                <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep
-                  customization. You will
-                  easily adjust each component to suit your needs.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Fourth row-->
-          </div>
-          <!--/Third column-->
-
-        </div>
-        <!--/First row-->
-
-      </section>
-      <!--Section: Not enough-->
-
-      <hr class="mb-5">
-
-      <!--Section: More-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">...and even more</h2>
-
-        <!--First row-->
-        <div class="row features-small mt-5 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2 pl-3">
-                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers;
-                  all browsers love MDB.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as
-                  possible.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Active community</h5>
-                <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a
-                  part of our family.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
-                <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest
-                  features which come along with
-                  it.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/First row-->
-
-        <!--Second row-->
-        <div class="row features-small mt-4 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Modularity</h5>
-                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use
-                  libraries including all features as
-                  well as modules for CSS (SASS files) and JS.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Technical support</h5>
-                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to
-                  contact us.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
-                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">SASS files</h5>
-                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Second row-->
-
-      </section>
-      <!--Section: More-->
+      <!--Section: kontakt-->
 
     </div>
+
   </main>
   <!--Main layout-->
 
@@ -602,36 +559,17 @@
         <i class="fab fa-twitter mr-3"></i>
       </a>
 
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
-
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+      <a href="https://github.com/kraljan12" target="_blank">
         <i class="fab fa-github mr-3"></i>
       </a>
 
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
     </div>
     <!-- Social icons -->
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      © 2020 Copyright:
-      <a href="https://ICTLiberec.cz" target="_blank"> ICTLiberec.cz </a>
+      © 2020 Made by:
+      <a href="https://ICTLiberec.cz" target="_blank"> Jan Král </a>
     </div>
     <!--/.Copyright-->
 
